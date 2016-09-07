@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppStroke</string>
+    <string name="test_validator">Test ID Validator</string>
+    <string name="mainpage_viewpager_diagnose_validator_nonempty">Form tidak boleh kosong !</string>
+    <string name="mainpage_viewpager_diagnose_validator_numerical">Nilai error !</string>
+    <string name="mainpage_viewpager_diagnose_validator_range" formatted="false">Nilai harus lebih dari %s dan kurang dari %s !</string>
+    <string name="mainpage_viewpager_medical_record_status_danger">Mengkhawatirkan</string>
+    <string name="mainpage_viewpager_medical_record_status_high">Rentan</string>
+    <string name="launcher_name">AppMedisLauncher</string>
+    <string name="appmedis_toolbar_icon_desc">Logo Aplikasi</string>
+    <string name="appmedis_mainpage_title">App Medis</string>
+    <string name="appmedis_toolbar_menu_help">Bantuan</string>
+    <string name="appmedis_toolbar_menu_about_us">Tentang Kami</string>
+    <string name="appmedis_toolbar_menu_back">Kembali</string>
+    <string name="appmedis_short_description">App Medis membantu anda dalam mengontrol kesehatan anda. Masukkan data kesehatan anda dan amati kesehatan anda.</string>
+    <string name="appmedis_avatar_description">Icon App Medis</string>
+    <string name="appmedis_button_accupunture_description">Akupuntur Logo Launcher</string>
+    <string name="appmedis_button_stroke_description">Launcer Stroke Logo</string>
+    <string name="appmedis_button_heart_description">Launcher Jantung Logo</string>
+    <string name="appmedis_button_stroke_title">Stroke</string>
+    <string name="appmedis_button_heart_title">Jantung</string>
+    <string name="appmedis_button_accupunture_title">Akupuntur</string>
+    <string name="appmedis_helppage_title">Bantuan</string>
+    <string name="appmedis_aboutuspage_title">Tentang Kami</string>
+    <string name="appmedis_acupuncture_short_description">App Medis Akupuntur membantu anda dalam mengontrol kesehatan anda. Masukkan data kesehatan anda dan amati kesehatan anda.</string>
+    <string name="appmedis_stroke_short_description">App Medis Stroke membantu anda dalam mengontrol kesehatan anda. Masukkan data kesehatan anda dan amati kesehatan anda.</string>
+    <string name="appmedis_heart_short_description">App Medis Jantung membantu anda dalam mengontrol kesehatan anda. Masukkan data kesehatan anda</string>
+</resources>
