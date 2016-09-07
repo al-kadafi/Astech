@@ -72,14 +72,23 @@
 
         </LinearLayout>
 
-        <Button
+        <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="40dp"-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:text="Luncurkan"-->
+            <!--android:id="@+id/buttonAppMedis" />-->
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/buttonAppMedis"
             android:layout_width="match_parent"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
-            android:background="@color/colorPrimary"
-            android:textColor="@android:color/white"
-            android:text="Luncurkan"
-            android:id="@+id/buttonAppMedis" />
+            android:text="Luncurkan"/>
 
 
     </LinearLayout>

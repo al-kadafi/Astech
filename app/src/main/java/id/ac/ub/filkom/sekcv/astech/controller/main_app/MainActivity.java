@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity implements Medis.OnFragmentI
 
             return true;
         } else if (id == R.id.logout) {
-            Toast.makeText(MainActivity.this, "Logout", Toast.LENGTH_LONG).show();
+            Toast.makeText(MainActivity.this, "You're have logout", Toast.LENGTH_LONG).show();
             editor.clear();
             editor.commit();
             startActivity(new Intent(this, LoginActivity.class));

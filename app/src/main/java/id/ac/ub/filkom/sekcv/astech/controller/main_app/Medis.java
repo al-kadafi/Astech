@@ -76,6 +76,7 @@ public class Medis extends Fragment {
             @Override
             public void onClick(View view)
             {
+//                button.setBackgroundColor(R.color.primary_dark);
 //                Intent intent = Medis.super.getContext().getPackageManager().getLaunchIntentForPackage(".controller.MainPage");
 //                if(intent != null)
 //                {

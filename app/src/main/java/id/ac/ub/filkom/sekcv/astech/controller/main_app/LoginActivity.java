@@ -37,8 +37,8 @@ public class LoginActivity extends AppCompatActivity {
     Button _loginButton;
     @BindView(R.id.link_signup)
     TextView _signupLink;
-    @BindView(R.id.spinner)
-    Spinner _spinner;
+//    @BindView(R.id.spinner)
+//    Spinner _spinner;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -60,7 +60,7 @@ public class LoginActivity extends AppCompatActivity {
 
 //        _spinner.setBackgroundTintList(ColorStateList.valueOf(R.color.black));
         //menerapkan adapter pada spinner sp
-        _spinner.setAdapter(adapter);
+//        _spinner.setAdapter(adapter);
 
         _loginButton.setOnClickListener(new View.OnClickListener() {
 
@@ -140,7 +140,7 @@ public class LoginActivity extends AppCompatActivity {
                             progressDialog.dismiss();
                         }
                     }
-                }, 3000);
+                }, 2000);
     }
 
 

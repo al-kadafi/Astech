@@ -25,6 +25,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import butterknife.OnLongClick;
 import id.ac.ub.filkom.sekcv.appstroke.R;
+import id.ac.ub.filkom.sekcv.astech.controller.main_app.MainActivity;
 
 public class MainPage extends AppCompatActivity
 {
@@ -158,7 +159,8 @@ public class MainPage extends AppCompatActivity
     @Override
     public void onBackPressed()
     {
-        Toast.makeText(this.getApplicationContext(), "Pressed Button Back", Toast.LENGTH_SHORT).show();
+        final Intent intent = new Intent(this, MainActivity.class);
+        super.startActivity(intent);
     }
 
     public void onToolbarAboutUsMenuPressed()

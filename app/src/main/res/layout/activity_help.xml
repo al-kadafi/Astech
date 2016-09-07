@@ -7,17 +7,29 @@
     tools:context="com.labkcv.selabkc.Help">
 
     <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbarhelp"
-        android:minHeight="?attr/actionBarSize"
-        android:background="?attr/colorPrimary"
+        android:id="@+id/toolbarHelp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:theme="@style/ThemeOverlay.AppCompat.Dark"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/xml_appbar_shadow_shape"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/white"
+                android:text="Help"
+                android:textSize="20sp"/>
+        </LinearLayout>
     </android.support.v7.widget.Toolbar>
 
     <ListView
-        android:layout_below="@+id/toolbarhelp"
+        android:layout_below="@+id/toolbarHelp"
         android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
