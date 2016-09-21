@@ -85,11 +85,12 @@ public class MainActivity extends AppCompatActivity implements Medis.OnFragmentI
             editor.commit();
             startActivity(new Intent(this, LoginActivity.class));
             return true;
-        } else if (id == R.id.exit) {
-//            Toast.makeText(MainActivity.this, "Exit", Toast.LENGTH_LONG).show();
-            this.finish();
-            return true;
         }
+//        else if (id == R.id.exit) {
+////            Toast.makeText(MainActivity.this, "Exit", Toast.LENGTH_LONG).show();
+//            this.finish();
+//            return true;
+//        }
 
         return super.onOptionsItemSelected(item);
     }

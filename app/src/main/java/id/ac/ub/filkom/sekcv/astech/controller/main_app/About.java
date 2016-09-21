@@ -56,11 +56,12 @@ public class About extends AppCompatActivity {
             Toast.makeText(About.this, "Logout", Toast.LENGTH_LONG).show();
 
             return true;
-        }else if(id == R.id.exit){
-            Toast.makeText(About.this, "Exit", Toast.LENGTH_LONG).show();
-
-            return true;
         }
+//        else if(id == R.id.exit){
+//            Toast.makeText(About.this, "Exit", Toast.LENGTH_LONG).show();
+//
+//            return true;
+//        }
 
         return super.onOptionsItemSelected(item);
     }

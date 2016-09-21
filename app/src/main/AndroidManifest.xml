@@ -49,8 +49,12 @@
         </activity>
         <activity android:name="id.ac.ub.filkom.sekcv.astech.controller.main_app.HelpLogin"
             android:label="Help Login" />
+        <activity android:name="id.ac.ub.filkom.sekcv.astech.controller.main_app.HelpPenggunaan"
+            android:label="Help Penggunaan" />
 
         <!--activity launcher main sub app-->
+        <activity android:name="id.ac.ub.filkom.sekcv.astech.controller.main_sub_app.Help"
+            android:label="Help" />
         <activity
             android:name="id.ac.ub.filkom.sekcv.astech.controller.main_sub_app.MainPage"
             android:label="@string/launcher_name"

@@ -25,6 +25,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import butterknife.OnLongClick;
 import id.ac.ub.filkom.sekcv.appstroke.R;
+import id.ac.ub.filkom.sekcv.astech.controller.main_app.About;
 import id.ac.ub.filkom.sekcv.astech.controller.main_app.MainActivity;
 
 public class MainPage extends AppCompatActivity
@@ -165,13 +166,13 @@ public class MainPage extends AppCompatActivity
 
     public void onToolbarAboutUsMenuPressed()
     {
-        final Intent intent = new Intent(this, AboutUsPage.class);
+        final Intent intent = new Intent(this, About.class);
         super.startActivity(intent);
     }
 
     public void onToolbarHelpMenuPressed()
     {
-        final Intent intent = new Intent(this, Helppage.class);
+        final Intent intent = new Intent(this, Help.class);
         super.startActivity(intent);
     }
 

@@ -109,7 +109,7 @@ public class SignupActivity extends AppCompatActivity implements DatePickerDialo
 
     public void signup() {
         Log.d(TAG, "Signup");
-
+        Toast.makeText(getApplicationContext(), "Sign up success", Toast.LENGTH_LONG).show();
         if (!validate()) {
             onSignupFailed();
             return;

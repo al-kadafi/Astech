@@ -68,9 +68,7 @@ public class Help extends AppCompatActivity {
 
                 // ListView Clicked item value
                 String itemValue = (String) listView.getItemAtPosition(position);
-                if(itemPosition == 1){
 
-                }
                 switch (itemPosition){
                     case 0:
                         Intent intent = new Intent(Help.this, HelpLogin.class);
