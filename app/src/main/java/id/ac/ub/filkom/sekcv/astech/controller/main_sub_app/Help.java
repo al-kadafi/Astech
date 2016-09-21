@@ -30,8 +30,13 @@ public class Help extends AppIntro2{
         setBackgroundView(a);
         // Instead of fragments, you can also use our default slide
         // Just set a title, description, background and image. AppIntro will do the rest.
-        addSlide(AppIntroFragment.newInstance("Memilih aplikasi", "Pilih aplikasi dari berbagai jenis aplikasi yang tersedia, klik 1 kali untuk melihat definisi kategori aplikasi dan klik dan tahan selama 2 detik untuk menjalankan aplikasi", R.drawable.home_sub_app, R.color.amber));
-        addSlide(AppIntroFragment.newInstance("Mengoperasikan aplikasi", "Anda dapat ", R.drawable.daftar, R.color.amber));
+        addSlide(AppIntroFragment.newInstance("Memilih aplikasi", "Pilih aplikasi dari berbagai jenis aplikasi yang tersedia, klik 1 kali untuk melihat definisi kategori aplikasi dan klik dan tahan selama 2 detik untuk menjalankan aplikasi", R.drawable.sub_main_app, R.color.amber));
+        addSlide(AppIntroFragment.newInstance("Mengoperasikan kategori aplikasi", "Setelah Anda masuk kategori aplikasi, Anda dapat mengoperasikannya dengan menggeser kekanan atau kekiri dari layar perangkat Anda", R.drawable.home_sub_app, R.color.amber));
+        addSlide(AppIntroFragment.newInstance("Screen home", "Pada screen home anda dapat mengetahui penjelasan umum tentang kategori aplikasi yang Anda pilih, pada screen ini juga disertakan link untuk sumber penjelasan yang diberikan", R.drawable.home_sub_app, R.color.amber));
+        addSlide(AppIntroFragment.newInstance("Screen diagnosis", "Pada screen ini dapat anda dapat menginputkan data-data terkait kategori aplikasi yang Anda pilih, dan Anda dapat mengetahui hasil diagnosis dari data-data yang telah Anda inputkan", R.drawable.diagnosa, R.color.amber));
+        addSlide(AppIntroFragment.newInstance("Hasil diagnosis", "Hasil diagnosis dari data-data yang telah Anda inputkan akan muncul ketika Anda menekan tombol calculate, dan Anda dapat mengetahui treatment dari hasil diagnosis dengan menekan tombol Go to treatment pada pojok kanan bawah", R.drawable.diagnosa, R.color.amber));
+        addSlide(AppIntroFragment.newInstance("Screen Rekam medis", "Hasil data yang telah Anda inputkan ketika proses diagnosis akan disimpan dan ditampilkan pada screen rekam medis, sehingga Anda dapat memantau kondisi kesehatan Anda pada screen rekam medis ini", R.drawable.diagnosa, R.color.amber));
+        addSlide(AppIntroFragment.newInstance("Screen tratment", "Screen tretment akan menampilkan berbagai macam informasi dari hasil diagnosis yang dapat Anda jadikan referensi dalam melakukan tindakan selanjutnya terkait hasil diagnosis", R.drawable.diagnosa, R.color.amber));
         // OPTIONAL METHODS
         // Override bar/separator color.
 //        setBarColor(Color.parseColor("#3F51B5"));

@@ -154,6 +154,7 @@
                 android:layout_marginTop="4dp"
                 android:background="@color/colorPrimary"
                 android:padding="12dp"
+                android:textColor="@color/white"
                 android:text="@string/mainpage_viewpager_diagnose_button_submit"/>
 
             <android.support.v7.widget.AppCompatButton
